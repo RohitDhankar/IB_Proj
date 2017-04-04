@@ -1,0 +1,11 @@
+########### FART Error ---- 
+ERROR LOCATION --- /lib/python2.7/site-packages/bs4/element.py in decode
+            indent_space = (' ' * (indent_level - 1))
+
+eventual_encoding 	
+
+'utf-8'
+_____________________________
+indent_level 	
+
+'latin-1'
