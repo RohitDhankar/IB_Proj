@@ -1,4 +1,25 @@
-########### FART Error ---- 
+########## Error ----1 
+ERROR LOCATION -within CONDA venv for Django1.10 -- /lib/python2.7/encodings/utf_8.py in decode
+
+return codecs.utf_8_decode(input, errors, True)
+     ...
+
+▼ Local vars
+Variable 	Value
+errors 	
+
+'strict'
+
+input 	
+
+'INSERT INTO "snap_p" ("price", "name", "url", "pic_url", "date_times", "active") VALUES (549, \'TGK 360\xb0 Degree Rotating Leather Case Cover for iPad MINI 4 -Black\', \'https://www.snapdeal.com/product/tgk-flip-cover-for-ipad/670823079319\', \'https://n3.sdlcdn.com/imgs/c/u/i/large/TGK-360-Degree-Rotating-Leather-SDL614857302-1-eec15.jpg\', \'2017-04-04T05:46:24.016685+00:00\'::timestamptz, true) RETURNING "infoBOT_snap_p"."id"'
+
+
+
+########### Error ---- 2
+#
+#
+
 ERROR LOCATION --- /lib/python2.7/site-packages/bs4/element.py in decode
             indent_space = (' ' * (indent_level - 1))
 
